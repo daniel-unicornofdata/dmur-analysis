@@ -1,0 +1,2751 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "city": "Santa Barbara.Json",
+    "analysis_timestamp": "2025-08-12T19:58:58.042767",
+    "total_businesses": 158,
+    "downtown_businesses": 153,
+    "downtown_area_km2": 0.68
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Downtown Santa Barbara.Json",
+        "type": "downtown_boundary",
+        "business_count": 153
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -119.70064730000001,
+              34.41494480000001
+            ],
+            [
+              -119.70094135142101,
+              34.41495924581999
+            ],
+            [
+              -119.70123257096606,
+              34.4150024441588
+            ],
+            [
+              -119.70151815403177,
+              34.41507397899281
+            ],
+            [
+              -119.7017953502971,
+              34.41517316140247
+            ],
+            [
+              -119.7020614902105,
+              34.41529903620696
+            ],
+            [
+              -119.70231401069907,
+              34.4154503911631
+            ],
+            [
+              -119.7025504798525,
+              34.41562576863992
+            ],
+            [
+              -119.70276862034358,
+              34.415823479656446
+            ],
+            [
+              -119.7029663313601,
+              34.41604162014752
+            ],
+            [
+              -119.70314170883692,
+              34.41627808930095
+            ],
+            [
+              -119.70329306379305,
+              34.41653060978953
+            ],
+            [
+              -119.70341893859755,
+              34.41679674970291
+            ],
+            [
+              -119.7035181210072,
+              34.41707394596825
+            ],
+            [
+              -119.70358965584123,
+              34.41735952903396
+            ],
+            [
+              -119.70363285418003,
+              34.41765074857902
+            ],
+            [
+              -119.70364730000001,
+              34.41794480000001
+            ],
+            [
+              -119.70364730000001,
+              34.41994480000001
+            ],
+            [
+              -119.70363285418003,
+              34.420238851421
+            ],
+            [
+              -119.70358965584123,
+              34.42053007096606
+            ],
+            [
+              -119.7035181210072,
+              34.42081565403177
+            ],
+            [
+              -119.70341893859755,
+              34.42109285029711
+            ],
+            [
+              -119.70329306379305,
+              34.421358990210486
+            ],
+            [
+              -119.70314170883692,
+              34.421611510699066
+            ],
+            [
+              -119.7029663313601,
+              34.4218479798525
+            ],
+            [
+              -119.70276862034358,
+              34.42206612034357
+            ],
+            [
+              -119.7025504798525,
+              34.4222638313601
+            ],
+            [
+              -119.70231401069907,
+              34.42243920883692
+            ],
+            [
+              -119.7020614902105,
+              34.42259056379306
+            ],
+            [
+              -119.7017953502971,
+              34.42271643859755
+            ],
+            [
+              -119.70151815403177,
+              34.42281562100721
+            ],
+            [
+              -119.70123257096606,
+              34.42288715584122
+            ],
+            [
+              -119.70094135142101,
+              34.422930354180025
+            ],
+            [
+              -119.70064730000001,
+              34.42294480000001
+            ],
+            [
+              -119.69864730000002,
+              34.42294480000001
+            ],
+            [
+              -119.69835324857902,
+              34.422930354180025
+            ],
+            [
+              -119.69806202903396,
+              34.42288715584122
+            ],
+            [
+              -119.69777644596826,
+              34.4228156210072
+            ],
+            [
+              -119.69749924970291,
+              34.42271643859754
+            ],
+            [
+              -119.69723310978954,
+              34.42259056379305
+            ],
+            [
+              -119.69698058930096,
+              34.42243920883691
+            ],
+            [
+              -119.69674412014753,
+              34.4222638313601
+            ],
+            [
+              -119.69652597965646,
+              34.422066120343565
+            ],
+            [
+              -119.69452597965646,
+              34.42006612034356
+            ],
+            [
+              -119.69432826863994,
+              34.4198479798525
+            ],
+            [
+              -119.69415289116311,
+              34.41961151069906
+            ],
+            [
+              -119.69400153620698,
+              34.41935899021048
+            ],
+            [
+              -119.69387566140249,
+              34.4190928502971
+            ],
+            [
+              -119.69377647899283,
+              34.41881565403177
+            ],
+            [
+              -119.69370494415881,
+              34.41853007096605
+            ],
+            [
+              -119.69366174582001,
+              34.418238851420995
+            ],
+            [
+              -119.69364730000002,
+              34.41794480000001
+            ],
+            [
+              -119.69366174582001,
+              34.417650748579014
+            ],
+            [
+              -119.69370494415881,
+              34.41735952903396
+            ],
+            [
+              -119.69377647899283,
+              34.41707394596824
+            ],
+            [
+              -119.69387566140249,
+              34.41679674970291
+            ],
+            [
+              -119.69400153620698,
+              34.416530609789525
+            ],
+            [
+              -119.69415289116311,
+              34.416278089300945
+            ],
+            [
+              -119.69432826863994,
+              34.41604162014752
+            ],
+            [
+              -119.69452597965646,
+              34.415823479656446
+            ],
+            [
+              -119.69474412014753,
+              34.41562576863992
+            ],
+            [
+              -119.69498058930097,
+              34.4154503911631
+            ],
+            [
+              -119.69523310978954,
+              34.41529903620696
+            ],
+            [
+              -119.69549924970293,
+              34.41517316140247
+            ],
+            [
+              -119.69577644596826,
+              34.41507397899281
+            ],
+            [
+              -119.69606202903398,
+              34.4150024441588
+            ],
+            [
+              -119.69635324857903,
+              34.41495924581999
+            ],
+            [
+              -119.69664730000002,
+              34.41494480000001
+            ],
+            [
+              -119.70064730000001,
+              34.41494480000001
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Santa Barbara Historical Society Library",
+        "business_type": "amenity",
+        "business_subtype": "library",
+        "osm_id": 368170520
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6969976,
+          34.421453
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Starbucks",
+        "business_type": "amenity",
+        "business_subtype": "cafe",
+        "osm_id": 1521699543
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6967592,
+          34.4175525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Uncle Rocco's NY Pizza",
+        "business_type": "amenity",
+        "business_subtype": "restaurant",
+        "osm_id": 1521699556
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6954853,
+          34.4166203
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Backstage Dueling Piano Bar",
+        "business_type": "amenity",
+        "business_subtype": "bar",
+        "osm_id": 2518036371
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6946877,
+          34.416013
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Yogurtland",
+        "business_type": "amenity",
+        "business_subtype": "ice_cream",
+        "osm_id": 4828012022
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.697592,
+          34.4181495
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Apple Store",
+        "business_type": "shop",
+        "business_subtype": "electronics",
+        "osm_id": 4828019321
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.701355,
+          34.4212987
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hana Kitchen",
+        "business_type": "amenity",
+        "business_subtype": "restaurant",
+        "osm_id": 4898453222
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6958222,
+          34.4168496
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "The Habit Burger Grill",
+        "business_type": "amenity",
+        "business_subtype": "fast_food",
+        "osm_id": 4949428329
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.697435,
+          34.4184879
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Basil's",
+        "business_type": "amenity",
+        "business_subtype": "restaurant",
+        "osm_id": 5214670223
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.696238,
+          34.4192782
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Casa de la Guerra",
+        "business_type": "tourism",
+        "business_subtype": "information",
+        "osm_id": 5246625638
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6992216,
+          34.4201592
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "De La Guerra Plaza",
+        "business_type": "tourism",
+        "business_subtype": "information",
+        "osm_id": 5246625639
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.698967,
+          34.4201265
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "McConnell\u2018s",
+        "business_type": "shop",
+        "business_subtype": "ice_cream",
+        "osm_id": 5348064373
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.698832,
+          34.4194219
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "N&S Expressions",
+        "business_type": "shop",
+        "business_subtype": "clothes",
+        "osm_id": 5348064374
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6990076,
+          34.4195524
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fair Eyes",
+        "business_type": "shop",
+        "business_subtype": "optician",
+        "osm_id": 5348064379
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6988806,
+          34.419469
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "H&M",
+        "business_type": "shop",
+        "business_subtype": "clothes",
+        "osm_id": 5427260121
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.7004511,
+          34.4202273
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "The Honey B",
+        "business_type": "amenity",
+        "business_subtype": "cafe",
+        "osm_id": 5607536721
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.695715,
+          34.4189019
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "The Red Piano",
+        "business_type": "amenity",
+        "business_subtype": "bar",
+        "osm_id": 5633534807
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6963695,
+          34.4172335
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kanaloa Seafood",
+        "business_type": "shop",
+        "business_subtype": "seafood",
+        "osm_id": 5644657022
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.699945,
+          34.4178901
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Breakfast Culture Club",
+        "business_type": "amenity",
+        "business_subtype": "cafe",
+        "osm_id": 5644657023
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.7002299,
+          34.4174375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nu-Image Nails & Spa",
+        "business_type": "shop",
+        "business_subtype": "beauty",
+        "osm_id": 5738074723
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6974732,
+          34.4180593
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Viva Santa Barbara",
+        "business_type": "shop",
+        "business_subtype": "clothes",
+        "osm_id": 5738074825
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6992705,
+          34.4184242
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Victoria's Secret",
+        "business_type": "shop",
+        "business_subtype": "clothes",
+        "osm_id": 5738074826
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6993601,
+          34.4185938
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Inspire",
+        "business_type": "shop",
+        "business_subtype": "shoes",
+        "osm_id": 5738074827
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.70019,
+          34.4191172
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "American Eagle Outfitters",
+        "business_type": "shop",
+        "business_subtype": "clothes",
+        "osm_id": 5738075221
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.7005038,
+          34.4191387
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sandbar",
+        "business_type": "amenity",
+        "business_subtype": "restaurant",
+        "osm_id": 5889680528
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6958797,
+          34.4172574
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Baja Sharkeez",
+        "business_type": "amenity",
+        "business_subtype": "bar",
+        "osm_id": 5889680529
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6964566,
+          34.4172899
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Asie Dumpling House",
+        "business_type": "amenity",
+        "business_subtype": "restaurant",
+        "osm_id": 6070264453
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.696258,
+          34.416844
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Blenders in the Grass",
+        "business_type": "amenity",
+        "business_subtype": "fast_food",
+        "osm_id": 6070264593
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.698488,
+          34.419306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rincon Strategies",
+        "business_type": "office",
+        "business_subtype": "public_affairs",
+        "osm_id": 6597510266
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6986099,
+          34.4195815
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tillys",
+        "business_type": "shop",
+        "business_subtype": "clothes",
+        "osm_id": 6713970685
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.7013246,
+          34.4208708
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SBIFF Film Center",
+        "business_type": "amenity",
+        "business_subtype": "cinema",
+        "osm_id": 6916463763
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.7008903,
+          34.4211273
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Metropolitan Paseo Nuevo 4 Cinemas",
+        "business_type": "amenity",
+        "business_subtype": "cinema",
+        "osm_id": 6925573431
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6998576,
+          34.4194088
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "ParadICE Hawaiian Shave Ice & Ice Cream",
+        "business_type": "amenity",
+        "business_subtype": "restaurant",
+        "osm_id": 7799703603
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.699578,
+          34.4192242
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dudek Engineering",
+        "business_type": "office",
+        "business_subtype": "yes",
+        "osm_id": 7849100898
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6990546,
+          34.4168902
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Apertivo Wine Bar",
+        "business_type": "shop",
+        "business_subtype": "wine",
+        "osm_id": 8789936317
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6957048,
+          34.4164695
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "oat bakery",
+        "business_type": "shop",
+        "business_subtype": "bakery",
+        "osm_id": 8789936417
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.695651,
+          34.4165248
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dune Coffee Roasters",
+        "business_type": "amenity",
+        "business_subtype": "cafe",
+        "osm_id": 8789962517
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6951763,
+          34.4187816
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Banc of California",
+        "business_type": "amenity",
+        "business_subtype": "bank",
+        "osm_id": 9043936618
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.7012871,
+          34.4200367
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Haley Hotel",
+        "business_type": "tourism",
+        "business_subtype": "motel",
+        "osm_id": 10727235130
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6945602,
+          34.4175005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Happy Canyon",
+        "business_type": "craft",
+        "business_subtype": "winery",
+        "osm_id": 11341047229
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6994601,
+          34.42066
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Grassini Family Vineyards",
+        "business_type": "craft",
+        "business_subtype": "winery",
+        "osm_id": 11341047230
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6995794,
+          34.420461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Benjamin Silver Winery",
+        "business_type": "craft",
+        "business_subtype": "winery",
+        "osm_id": 11341047231
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6996245,
+          34.4206126
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jamie Sloan Wines",
+        "business_type": "craft",
+        "business_subtype": "winery",
+        "osm_id": 11341047233
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6989648,
+          34.420452
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Frequency Wines",
+        "business_type": "craft",
+        "business_subtype": "winery",
+        "osm_id": 11341047234
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6985206,
+          34.4212812
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lighthouse Coffee",
+        "business_type": "amenity",
+        "business_subtype": "cafe",
+        "osm_id": 11360708458
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6998932,
+          34.4177385
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Idyll Mercantile",
+        "business_type": "shop",
+        "business_subtype": "plants",
+        "osm_id": 11360708459
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6997619,
+          34.417634
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Unknown",
+        "business_type": "amenity",
+        "business_subtype": "restaurant",
+        "osm_id": 11360708461
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.7000209,
+          34.4179817
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tondi Gelato",
+        "business_type": "amenity",
+        "business_subtype": "ice_cream",
+        "osm_id": 11360787408
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.698702,
+          34.4188548
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Miss Behavin'",
+        "business_type": "shop",
+        "business_subtype": "clothes",
+        "osm_id": 11360787409
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6991748,
+          34.4186809
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pink",
+        "business_type": "shop",
+        "business_subtype": "clothes",
+        "osm_id": 11360787410
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6992909,
+          34.4185769
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wylde Works",
+        "business_type": "amenity",
+        "business_subtype": "pub",
+        "osm_id": 11360821303
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6973123,
+          34.4179382
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cost Plus World Market",
+        "business_type": "shop",
+        "business_subtype": "interior_decoration",
+        "osm_id": 11360821304
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.696947,
+          34.4180625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Levi's",
+        "business_type": "shop",
+        "business_subtype": "clothes",
+        "osm_id": 11360821305
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6973742,
+          34.4179709
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hats Unlimited",
+        "business_type": "shop",
+        "business_subtype": "fashion_accessories",
+        "osm_id": 11360821306
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6974001,
+          34.418002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SweetReef",
+        "business_type": "amenity",
+        "business_subtype": "cafe",
+        "osm_id": 11360821307
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6973376,
+          34.4182921
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Urban Outfitters",
+        "business_type": "shop",
+        "business_subtype": "clothes",
+        "osm_id": 11360821308
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6973859,
+          34.4183426
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Silver And...",
+        "business_type": "shop",
+        "business_subtype": "jewelry",
+        "osm_id": 11360821309
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6971474,
+          34.4181774
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cleopatra Ink",
+        "business_type": "shop",
+        "business_subtype": "tattoo",
+        "osm_id": 11360821312
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6975358,
+          34.4181076
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cuso's Bikes",
+        "business_type": "shop",
+        "business_subtype": "bicycle",
+        "osm_id": 11360821313
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6975528,
+          34.4181277
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Only in Santa Barbara",
+        "business_type": "shop",
+        "business_subtype": "gift",
+        "osm_id": 11360821315
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6980057,
+          34.4184439
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "The Shade Store",
+        "business_type": "shop",
+        "business_subtype": "window_blind",
+        "osm_id": 11360821316
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6980627,
+          34.4184879
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cookie Plug",
+        "business_type": "shop",
+        "business_subtype": "pastry",
+        "osm_id": 11732422910
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.7010934,
+          34.4210572
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Blast Taqueria",
+        "business_type": "amenity",
+        "business_subtype": "restaurant",
+        "osm_id": 11732422911
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6977707,
+          34.4186419
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "7-Eleven",
+        "business_type": "shop",
+        "business_subtype": "convenience",
+        "osm_id": 11732422912
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6981324,
+          34.4188798
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Men's Wearhouse",
+        "business_type": "shop",
+        "business_subtype": "clothes",
+        "osm_id": 11732422913
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6987429,
+          34.4189827
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bath & Body Works",
+        "business_type": "shop",
+        "business_subtype": "cosmetics",
+        "osm_id": 11732422914
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6996035,
+          34.418564
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gap Kids",
+        "business_type": "shop",
+        "business_subtype": "clothes",
+        "osm_id": 11732422915
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6996988,
+          34.4186099
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Aveda",
+        "business_type": "shop",
+        "business_subtype": "cosmetics",
+        "osm_id": 11732422917
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6999694,
+          34.4189263
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bruxie",
+        "business_type": "amenity",
+        "business_subtype": "restaurant",
+        "osm_id": 11732422918
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6999292,
+          34.4192199
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "805 Boba",
+        "business_type": "amenity",
+        "business_subtype": "cafe",
+        "osm_id": 11732422919
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.7000085,
+          34.4191143
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tokyo Japanese Lifestyle",
+        "business_type": "shop",
+        "business_subtype": "collector",
+        "osm_id": 11732422920
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6999597,
+          34.4187845
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pink Browny",
+        "business_type": "shop",
+        "business_subtype": "clothes",
+        "osm_id": 11732422921
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.7003926,
+          34.4190887
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Elenita",
+        "business_type": "shop",
+        "business_subtype": "clothes",
+        "osm_id": 11732422923
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.7003844,
+          34.4192728
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Prop & Decor Outlet",
+        "business_type": "shop",
+        "business_subtype": "interior_decoration",
+        "osm_id": 11732422924
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.7014938,
+          34.4213547
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Italian Pottery Outlet",
+        "business_type": "shop",
+        "business_subtype": "houseware",
+        "osm_id": 11732422926
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.7016473,
+          34.4211044
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Viva Oliva",
+        "business_type": "shop",
+        "business_subtype": "olive_oil",
+        "osm_id": 11732422927
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.7015851,
+          34.4210691
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Unknown",
+        "business_type": "shop",
+        "business_subtype": "clothes",
+        "osm_id": 11732422928
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.7014975,
+          34.4210113
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Eight Zero Five",
+        "business_type": "shop",
+        "business_subtype": "clothes",
+        "osm_id": 11732422930
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.7011847,
+          34.4211055
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cali-Forno Pizzeria",
+        "business_type": "amenity",
+        "business_subtype": "fast_food",
+        "osm_id": 11732422931
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.7009881,
+          34.420603
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Unknown",
+        "business_type": "amenity",
+        "business_subtype": "fast_food",
+        "osm_id": 11732422932
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6999726,
+          34.4198195
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sushi Tyme",
+        "business_type": "amenity",
+        "business_subtype": "restaurant",
+        "osm_id": 11732422933
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.7002056,
+          34.4197694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Oak Berry",
+        "business_type": "amenity",
+        "business_subtype": "fast_food",
+        "osm_id": 11732422934
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.7002712,
+          34.4197153
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SB Nail Bar",
+        "business_type": "shop",
+        "business_subtype": "beauty",
+        "osm_id": 11732422935
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6977022,
+          34.4185649
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ace of Fade",
+        "business_type": "shop",
+        "business_subtype": "hairdresser",
+        "osm_id": 11732422936
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6999078,
+          34.418749
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Night Lizard Brewing Company",
+        "business_type": "amenity",
+        "business_subtype": "pub",
+        "osm_id": 11732446871
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6972636,
+          34.417895
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Game Seeker",
+        "business_type": "shop",
+        "business_subtype": "games",
+        "osm_id": 11732446872
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6967077,
+          34.417509
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Galanga",
+        "business_type": "amenity",
+        "business_subtype": "restaurant",
+        "osm_id": 11732446874
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6959037,
+          34.4169019
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "The Cruisery",
+        "business_type": "amenity",
+        "business_subtype": "pub",
+        "osm_id": 11732446875
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6957155,
+          34.4167762
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hibachi Steak House & Sushi Bar",
+        "business_type": "amenity",
+        "business_subtype": "restaurant",
+        "osm_id": 11732446876
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6955376,
+          34.416982
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Santa Barbara Craft Ramen",
+        "business_type": "amenity",
+        "business_subtype": "restaurant",
+        "osm_id": 11732446877
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6952235,
+          34.4168205
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Insomnia Cookies",
+        "business_type": "shop",
+        "business_subtype": "pastry",
+        "osm_id": 11732446878
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6950473,
+          34.4166274
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "State Street Beverages",
+        "business_type": "shop",
+        "business_subtype": "alcohol",
+        "osm_id": 11732446879
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6955274,
+          34.4166428
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Banana Republic",
+        "business_type": "shop",
+        "business_subtype": "clothes",
+        "osm_id": 11902453190
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6993065,
+          34.4192369
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Unknown",
+        "business_type": "shop",
+        "business_subtype": "jewelry",
+        "osm_id": 12264933769
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6996662,
+          34.4201006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "CAJ\u00c9 Coffee Roasters",
+        "business_type": "amenity",
+        "business_subtype": "cafe",
+        "osm_id": 12779120663
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.699894,
+          34.4198351
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dr. Hurtado Dentistry",
+        "business_type": "amenity",
+        "business_subtype": "dentist",
+        "osm_id": 12845342367
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6970929,
+          34.4177821
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cigar Lounge",
+        "business_type": "shop",
+        "business_subtype": "tobacco",
+        "osm_id": 12846317825
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6947818,
+          34.4160954
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Himalayan Kitchen",
+        "business_type": "amenity",
+        "business_subtype": "restaurant",
+        "osm_id": 12846345243
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.69537,
+          34.4165003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "The Adult Store",
+        "business_type": "shop",
+        "business_subtype": "yes",
+        "osm_id": 12846370130
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6945996,
+          34.4158895
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nectar Clothing",
+        "business_type": "shop",
+        "business_subtype": "clothes",
+        "osm_id": 12846370168
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6977159,
+          34.4182352
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Golden Eagle Tattoo",
+        "business_type": "shop",
+        "business_subtype": "tattoo",
+        "osm_id": 12846372525
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6946141,
+          34.4159568
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Above & Beyond Body Arts",
+        "business_type": "shop",
+        "business_subtype": "yes",
+        "osm_id": 12846374269
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6946612,
+          34.4159407
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lululemon",
+        "business_type": "shop",
+        "business_subtype": "clothes",
+        "osm_id": 12846389968
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6991898,
+          34.4197048
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Unknown",
+        "business_type": "shop",
+        "business_subtype": "optician",
+        "osm_id": 12846400843
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6998286,
+          34.419787
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "bluemercury",
+        "business_type": "shop",
+        "business_subtype": "cosmetics",
+        "osm_id": 12846421302
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6992913,
+          34.4197617
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "The Palace Grill",
+        "business_type": "amenity",
+        "business_subtype": "restaurant",
+        "osm_id": 12863709101
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6962817,
+          34.4180079
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mezza Thyme",
+        "business_type": "amenity",
+        "business_subtype": "restaurant",
+        "osm_id": 12863752801
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6960624,
+          34.4182597
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "The Black Sheep SB Brasserie",
+        "business_type": "amenity",
+        "business_subtype": "restaurant",
+        "osm_id": 12863756002
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.696153,
+          34.4181574
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Marcel Hemp",
+        "business_type": "shop",
+        "business_subtype": "clothes",
+        "osm_id": 13019309081
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6966652,
+          34.4174827
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dawn",
+        "business_type": "amenity",
+        "business_subtype": "cafe",
+        "osm_id": 13019309082
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.696226,
+          34.4175121
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Caravan",
+        "business_type": "shop",
+        "business_subtype": "clothes",
+        "osm_id": 13019309083
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6978634,
+          34.4183429
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dusk",
+        "business_type": "amenity",
+        "business_subtype": "bar",
+        "osm_id": 13019309084
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6961802,
+          34.4174721
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Unknown",
+        "business_type": "tourism",
+        "business_subtype": "information",
+        "osm_id": 13042119396
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6994179,
+          34.4185147
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Te Amo Jewelers",
+        "business_type": "shop",
+        "business_subtype": "jewelry",
+        "osm_id": 13042130314
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6996993,
+          34.4187391
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Unknown",
+        "business_type": "tourism",
+        "business_subtype": "information",
+        "osm_id": 13042141975
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.699367,
+          34.4184248
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gap",
+        "business_type": "shop",
+        "business_subtype": "clothes",
+        "osm_id": 13042145632
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6998102,
+          34.4186693
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Panda Express",
+        "business_type": "amenity",
+        "business_subtype": "fast_food",
+        "osm_id": 13042146469
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.7001884,
+          34.4187187
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Anna Janelle Jewelry",
+        "business_type": "shop",
+        "business_subtype": "jewelry",
+        "osm_id": 13042147555
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.7002763,
+          34.4190197
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Neez Goodz",
+        "business_type": "shop",
+        "business_subtype": "gift",
+        "osm_id": 13042158487
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.7003394,
+          34.419205
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Unknown",
+        "business_type": "amenity",
+        "business_subtype": "ice_cream",
+        "osm_id": 13042159569
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.7003387,
+          34.4196452
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Evaluz Design",
+        "business_type": "shop",
+        "business_subtype": "clothes",
+        "osm_id": 13042159570
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.699999,
+          34.4188338
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pressed",
+        "business_type": "amenity",
+        "business_subtype": "fast_food",
+        "osm_id": 13042160295
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6998995,
+          34.4190036
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "PacSun",
+        "business_type": "shop",
+        "business_subtype": "clothes",
+        "osm_id": 13042169463
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6995191,
+          34.4186609
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Anatola",
+        "business_type": "shop",
+        "business_subtype": "clothes",
+        "osm_id": 13042169661
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6990878,
+          34.4186832
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sweet Creams",
+        "business_type": "amenity",
+        "business_subtype": "ice_cream",
+        "osm_id": 13042173932
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.7000427,
+          34.4188582
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Solstice Sunglass Boutique",
+        "business_type": "shop",
+        "business_subtype": "fashion_accessories",
+        "osm_id": 13042173934
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.7002205,
+          34.4189833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Creper\u00eda El Chisme",
+        "business_type": "amenity",
+        "business_subtype": "cafe",
+        "osm_id": 13042174726
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6997636,
+          34.4187906
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Best BBQ",
+        "business_type": "amenity",
+        "business_subtype": "restaurant",
+        "osm_id": 13042199552
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6984324,
+          34.419127
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Supercuts",
+        "business_type": "shop",
+        "business_subtype": "hairdresser",
+        "osm_id": 13042204244
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6987844,
+          34.419365
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Center Stage Theater",
+        "business_type": "amenity",
+        "business_subtype": "theatre",
+        "osm_id": 13042209248
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.7003073,
+          34.4188803
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Museum Of Contemporary Art Santa Barbara",
+        "business_type": "tourism",
+        "business_subtype": "museum",
+        "osm_id": 13042209249
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.7001613,
+          34.4187549
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Apna",
+        "business_type": "amenity",
+        "business_subtype": "restaurant",
+        "osm_id": 13042214010
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6984915,
+          34.4191681
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hollister",
+        "business_type": "shop",
+        "business_subtype": "clothes",
+        "osm_id": 13042216320
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6987899,
+          34.4190228
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sock Harbor",
+        "business_type": "shop",
+        "business_subtype": "clothes",
+        "osm_id": 13042219830
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6986865,
+          34.4189503
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Antique Alley",
+        "business_type": "shop",
+        "business_subtype": "antiques",
+        "osm_id": 13042219915
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6981805,
+          34.4189117
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Unknown",
+        "business_type": "shop",
+        "business_subtype": "tiles",
+        "osm_id": 13042224529
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6971995,
+          34.4196439
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Intermezzo",
+        "business_type": "amenity",
+        "business_subtype": "restaurant",
+        "osm_id": 13042237552
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6990318,
+          34.4211429
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Institution Ale Company",
+        "business_type": "amenity",
+        "business_subtype": "bar",
+        "osm_id": 242894974
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6958878,
+          34.417425
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Yona Redz",
+        "business_type": "amenity",
+        "business_subtype": "restaurant",
+        "osm_id": 242894977
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.696379,
+          34.4176992
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hotel Santa Barbara",
+        "business_type": "tourism",
+        "business_subtype": "hotel",
+        "osm_id": 242894990
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.69677,
+          34.4173852
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Marshalls",
+        "business_type": "shop",
+        "business_subtype": "department_store",
+        "osm_id": 243609075
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.700454,
+          34.4209412
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bank of America",
+        "business_type": "amenity",
+        "business_subtype": "bank",
+        "osm_id": 243609082
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.7001672,
+          34.4205109
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Casa de la Guerra",
+        "business_type": "tourism",
+        "business_subtype": "museum",
+        "osm_id": 243609086
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6992764,
+          34.4203168
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Paseo Nuevo Metropolitan Theatres",
+        "business_type": "amenity",
+        "business_subtype": "theatre",
+        "osm_id": 243609598
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6999265,
+          34.419525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wildcat",
+        "business_type": "amenity",
+        "business_subtype": "bar",
+        "osm_id": 243675828
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.698525,
+          34.417995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Holiday Inn Express Santa Barbara",
+        "business_type": "tourism",
+        "business_subtype": "hotel",
+        "osm_id": 243675852
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6959648,
+          34.416075
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Enterprise",
+        "business_type": "amenity",
+        "business_subtype": "car_rental",
+        "osm_id": 243722183
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6981953,
+          34.4166596
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dollar Tree",
+        "business_type": "shop",
+        "business_subtype": "variety_store",
+        "osm_id": 245384857
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6946654,
+          34.4166888
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Killer Shrimp Restaurant & Bar",
+        "business_type": "amenity",
+        "business_subtype": "restaurant",
+        "osm_id": 245384859
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6945657,
+          34.416398
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Unknown",
+        "business_type": "office",
+        "business_subtype": "yes",
+        "osm_id": 340362974
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6979161,
+          34.4151903
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Paseo Nuevo Mall",
+        "business_type": "shop",
+        "business_subtype": "mall",
+        "osm_id": 349829217
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6998857,
+          34.4190563
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "La Paloma Cafe",
+        "business_type": "amenity",
+        "business_subtype": "cafe",
+        "osm_id": 623261922
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.696847,
+          34.420031
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Metropolitan Metro 4 Theatre",
+        "business_type": "amenity",
+        "business_subtype": "cinema",
+        "osm_id": 739629849
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6970672,
+          34.4184073
+        ]
+      }
+    }
+  ]
+}

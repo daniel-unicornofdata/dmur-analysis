@@ -1,0 +1,157 @@
+# Default configuration for DMUR Analysis
+
+# Logging configuration
+logging:
+  level: INFO
+  console_output: true
+  log_file: null  # Set to file path to enable file logging
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+
+# Business data fetching
+business_fetching:
+  overpass_url: "http://overpass-api.de/api/interpreter"
+  timeout: 180
+  max_retries: 3
+  retry_delay: 5
+  user_agent: "DMUR-Analysis/1.0 (Downtown Mixed-Use Readiness Analysis)"
+  active_only: true
+
+# Downtown analysis configuration
+downtown_analysis:
+  # Density analysis
+  density_threshold_percentile: 90.0
+  bandwidth: 0.002
+  grid_size: 0.002
+  
+  # Boundary generation
+  alpha: 0.02
+  buffer_distance: 0.003
+  
+  # Business filtering
+  commercial_only: true
+  auto_focus: true
+  
+  # Commercial business types
+  commercial_types:
+    - shop
+    - amenity
+    - office
+    - tourism
+    - craft
+    - healthcare
+  
+  # Commercial amenity subtypes
+  commercial_amenities:
+    - restaurant
+    - cafe
+    - bar
+    - pub
+    - fast_food
+    - food_court
+    - ice_cream
+    - bank
+    - atm
+    - cinema
+    - theatre
+    - nightclub
+    - casino
+    - pharmacy
+    - clinic
+    - doctors
+    - dentist
+    - fuel
+    - car_wash
+    - car_rental
+    - post_office
+    - courier
+    - internet_cafe
+    - library
+    - coworking_space
+
+# DMUR score calculation
+dmur_calculation:
+  # Component weights (must sum to 1.0)
+  weights:
+    mxi: 0.4
+    balance: 0.3
+    density: 0.2
+    diversity: 0.1
+  
+  # MXI parameters
+  max_distance_threshold: 0.005  # degrees (~500m)
+  
+  # Balance parameters
+  optimal_residential_ratio: 25.0  # residential units per business
+  
+  # Density parameters
+  urban_density_benchmark: 1000.0  # units per km²
+  
+  # Diversity parameters
+  max_bedroom_categories: 5  # 0, 1, 2, 3, 4+
+
+# Visualization settings
+visualization:
+  # Static plots
+  static_plots:
+    figsize: [15, 7]
+    dpi: 300
+    format: png
+    
+  # Interactive maps
+  interactive_maps:
+    zoom_start: 15
+    tiles: OpenStreetMap
+    
+  # Colors for business types
+  business_colors:
+    amenity: red
+    shop: green
+    tourism: blue
+    office: orange
+    craft: purple
+    healthcare: darkred
+    default: darkred
+
+# Data validation
+validation:
+  # Coordinate bounds checking
+  max_coordinate_range: 1.0  # degrees
+  min_coordinate_range: 0.001  # degrees
+  
+  # Minimum business requirements
+  min_businesses_for_analysis: 3
+  min_businesses_for_clustering: 10
+  
+  # Required fields
+  required_business_fields:
+    - id
+    - lat
+    - lon
+    - name
+    - business_type
+    - business_subtype
+  
+  required_listing_fields:
+    - lat
+    - lon
+    - bedrooms
+    - area_sqm
+    - price
+
+# Output settings
+output:
+  # File naming
+  file_naming:
+    businesses: "{city_name}_businesses.json"
+    downtown_geojson: "{city_name}_downtown.geojson"
+    analysis_plot: "{city_name}_analysis.png"
+    interactive_map: "{city_name}_map.html"
+    dmur_results: "{city_name}_dmur_results.json"
+  
+  # Directories
+  directories:
+    raw_data: "data/raw"
+    processed_data: "data/processed"
+    output_data: "data/output"
+    logs: "logs"
+    config: "config"

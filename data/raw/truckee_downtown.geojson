@@ -1,0 +1,1307 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "city": "Truckee",
+    "analysis_timestamp": "2025-08-12T19:59:12.452265",
+    "total_businesses": 63,
+    "downtown_businesses": 63,
+    "downtown_area_km2": 0.48
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Downtown Truckee",
+        "type": "downtown_boundary",
+        "business_count": 63
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -120.18505300000001,
+              39.324730100000004
+            ],
+            [
+              -120.187053,
+              39.324730100000004
+            ],
+            [
+              -120.187347051421,
+              39.32474454581999
+            ],
+            [
+              -120.18763827096605,
+              39.3247877441588
+            ],
+            [
+              -120.18792385403177,
+              39.324859278992804
+            ],
+            [
+              -120.1882010502971,
+              39.32495846140247
+            ],
+            [
+              -120.18846719021049,
+              39.325084336206956
+            ],
+            [
+              -120.18871971069906,
+              39.325235691163094
+            ],
+            [
+              -120.1889561798525,
+              39.325411068639916
+            ],
+            [
+              -120.18917432034357,
+              39.32560877965644
+            ],
+            [
+              -120.1893720313601,
+              39.32582692014751
+            ],
+            [
+              -120.18954740883692,
+              39.32606338930094
+            ],
+            [
+              -120.18969876379305,
+              39.32631590978952
+            ],
+            [
+              -120.18982463859754,
+              39.32658204970291
+            ],
+            [
+              -120.1899238210072,
+              39.32685924596824
+            ],
+            [
+              -120.18999535584122,
+              39.327144829033955
+            ],
+            [
+              -120.19003855418002,
+              39.32743604857901
+            ],
+            [
+              -120.190053,
+              39.327730100000004
+            ],
+            [
+              -120.19003855418002,
+              39.32802415142099
+            ],
+            [
+              -120.18999535584122,
+              39.328315370966045
+            ],
+            [
+              -120.1899238210072,
+              39.328600954031764
+            ],
+            [
+              -120.18982463859754,
+              39.32887815029709
+            ],
+            [
+              -120.18969876379305,
+              39.32914429021048
+            ],
+            [
+              -120.18954740883692,
+              39.32939681069906
+            ],
+            [
+              -120.1893720313601,
+              39.329633279852494
+            ],
+            [
+              -120.18917432034357,
+              39.32985142034356
+            ],
+            [
+              -120.18717432034357,
+              39.33185142034356
+            ],
+            [
+              -120.1869561798525,
+              39.332049131360094
+            ],
+            [
+              -120.18671971069908,
+              39.33222450883691
+            ],
+            [
+              -120.1864671902105,
+              39.33237586379305
+            ],
+            [
+              -120.18620105029711,
+              39.332501738597536
+            ],
+            [
+              -120.18592385403178,
+              39.3326009210072
+            ],
+            [
+              -120.18563827096607,
+              39.33267245584121
+            ],
+            [
+              -120.185347051421,
+              39.33271565418002
+            ],
+            [
+              -120.18505300000001,
+              39.332730100000006
+            ],
+            [
+              -120.18475894857903,
+              39.33271565418002
+            ],
+            [
+              -120.18446772903397,
+              39.33267245584122
+            ],
+            [
+              -120.18418214596825,
+              39.332600921007206
+            ],
+            [
+              -120.18390494970292,
+              39.33250173859754
+            ],
+            [
+              -120.18363880978953,
+              39.332375863793054
+            ],
+            [
+              -120.18338628930096,
+              39.332224508836916
+            ],
+            [
+              -120.18314982014752,
+              39.332049131360094
+            ],
+            [
+              -120.18293167965645,
+              39.33185142034357
+            ],
+            [
+              -120.18273396863992,
+              39.3316332798525
+            ],
+            [
+              -120.1825585911631,
+              39.33139681069907
+            ],
+            [
+              -120.18240723620697,
+              39.33114429021048
+            ],
+            [
+              -120.18228136140247,
+              39.3308781502971
+            ],
+            [
+              -120.18218217899282,
+              39.33060095403177
+            ],
+            [
+              -120.1821106441588,
+              39.330315370966055
+            ],
+            [
+              -120.18206744582,
+              39.33002415142099
+            ],
+            [
+              -120.18205300000001,
+              39.329730100000006
+            ],
+            [
+              -120.18205300000001,
+              39.327730100000004
+            ],
+            [
+              -120.18206744582,
+              39.32743604857902
+            ],
+            [
+              -120.1821106441588,
+              39.327144829033955
+            ],
+            [
+              -120.18218217899282,
+              39.326859245968244
+            ],
+            [
+              -120.18228136140247,
+              39.32658204970291
+            ],
+            [
+              -120.18240723620697,
+              39.32631590978953
+            ],
+            [
+              -120.1825585911631,
+              39.32606338930095
+            ],
+            [
+              -120.18273396863992,
+              39.32582692014751
+            ],
+            [
+              -120.18293167965645,
+              39.32560877965644
+            ],
+            [
+              -120.18314982014752,
+              39.325411068639916
+            ],
+            [
+              -120.18338628930096,
+              39.325235691163094
+            ],
+            [
+              -120.18363880978953,
+              39.325084336206956
+            ],
+            [
+              -120.18390494970292,
+              39.32495846140247
+            ],
+            [
+              -120.18418214596825,
+              39.324859278992804
+            ],
+            [
+              -120.18446772903397,
+              39.3247877441588
+            ],
+            [
+              -120.18475894857902,
+              39.32474454581999
+            ],
+            [
+              -120.18505300000001,
+              39.324730100000004
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wagon Train Cafe",
+        "business_type": "amenity",
+        "business_subtype": "cafe",
+        "osm_id": 1078144522
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.1852884,
+          39.3280379
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "El Toro Bravo",
+        "business_type": "amenity",
+        "business_subtype": "restaurant",
+        "osm_id": 1793740944
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.1878391,
+          39.3273322
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Moody's Bistro",
+        "business_type": "amenity",
+        "business_subtype": "restaurant",
+        "osm_id": 2299115044
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.1839038,
+          39.3284073
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Squeeze In",
+        "business_type": "amenity",
+        "business_subtype": "cafe",
+        "osm_id": 2637200312
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.1849037,
+          39.3281351
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bar of America",
+        "business_type": "amenity",
+        "business_subtype": "restaurant",
+        "osm_id": 2851750901
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.1843172,
+          39.3282867
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Unknown",
+        "business_type": "tourism",
+        "business_subtype": "information",
+        "osm_id": 3052633166
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.1857028,
+          39.3274837
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Drink Coffee Do Stuff",
+        "business_type": "shop",
+        "business_subtype": "coffee",
+        "osm_id": 5463391165
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.1870562,
+          39.3271188
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "California 89 Apparel and Lifestyle",
+        "business_type": "shop",
+        "business_subtype": "gift",
+        "osm_id": 5811546853
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.187405,
+          39.3275046
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Craft & Logic",
+        "business_type": "amenity",
+        "business_subtype": "pub",
+        "osm_id": 5941688834
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.188053,
+          39.3272193
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tahoe Sports Hub",
+        "business_type": "shop",
+        "business_subtype": "sports",
+        "osm_id": 9171773159
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.185296,
+          39.3267301
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Coffee And",
+        "business_type": "amenity",
+        "business_subtype": "restaurant",
+        "osm_id": 9364065875
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.1860068,
+          39.3278429
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Best Pies Pizzeria",
+        "business_type": "amenity",
+        "business_subtype": "restaurant",
+        "osm_id": 11099462521
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.185026,
+          39.3281005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gallery 5830\u2019",
+        "business_type": "shop",
+        "business_subtype": "art",
+        "osm_id": 11099462522
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.1848713,
+          39.3281442
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bluestone Jewelry & Wine",
+        "business_type": "shop",
+        "business_subtype": "jewelry",
+        "osm_id": 11099462523
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.1845238,
+          39.3282348
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Word After Word Books",
+        "business_type": "shop",
+        "business_subtype": "books",
+        "osm_id": 11099462524
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.1847345,
+          39.3281823
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sierra Sotheby\u2019s",
+        "business_type": "office",
+        "business_subtype": "estate_agent",
+        "osm_id": 11099462525
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.1844208,
+          39.3282613
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nomad Boutique",
+        "business_type": "shop",
+        "business_subtype": "clothes",
+        "osm_id": 11099462527
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.1845746,
+          39.3282218
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rock Cellar Records",
+        "business_type": "shop",
+        "business_subtype": "music",
+        "osm_id": 11099462528
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.1846886,
+          39.3281924
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Casa Baeza Mexican Restaurant",
+        "business_type": "amenity",
+        "business_subtype": "restaurant",
+        "osm_id": 11099462529
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.1842506,
+          39.3289517
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Trokay",
+        "business_type": "amenity",
+        "business_subtype": "restaurant",
+        "osm_id": 11099462530
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.1846191,
+          39.3282117
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "The Sock Parlour",
+        "business_type": "shop",
+        "business_subtype": "clothes",
+        "osm_id": 11099462531
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.1849487,
+          39.3281242
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Juniper Boutique",
+        "business_type": "shop",
+        "business_subtype": "clothes",
+        "osm_id": 11099462532
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.1848264,
+          39.32816
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Marilyn\u2019s Cat Walk",
+        "business_type": "shop",
+        "business_subtype": "clothes",
+        "osm_id": 11099462533
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.1847892,
+          39.3281685
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Riverside Studios",
+        "business_type": "shop",
+        "business_subtype": "gift",
+        "osm_id": 11099864684
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.1852165,
+          39.3280568
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Arbor",
+        "business_type": "shop",
+        "business_subtype": "sports",
+        "osm_id": 11099864685
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.186734,
+          39.327637
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bespoke & Atelier",
+        "business_type": "shop",
+        "business_subtype": "houseware",
+        "osm_id": 11099864686
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.185789,
+          39.3279001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Truckee Tavern and Grill",
+        "business_type": "amenity",
+        "business_subtype": "restaurant",
+        "osm_id": 11099864687
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.1865427,
+          39.3276967
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bud\u2019s Old Fashioned Fountain",
+        "business_type": "amenity",
+        "business_subtype": "ice_cream",
+        "osm_id": 11099864688
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.1860671,
+          39.3278273
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "White Buffalo",
+        "business_type": "shop",
+        "business_subtype": "gift",
+        "osm_id": 11099864689
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.1863957,
+          39.3277365
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "The Treehouse",
+        "business_type": "shop",
+        "business_subtype": "clothes",
+        "osm_id": 11099864690
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.1859531,
+          39.3278586
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Truckee Railroad Museum",
+        "business_type": "tourism",
+        "business_subtype": "museum",
+        "osm_id": 11099864692
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.1854073,
+          39.3275503
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "La Galleria",
+        "business_type": "shop",
+        "business_subtype": "gift",
+        "osm_id": 11099864693
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.1862373,
+          39.3277782
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pianeta",
+        "business_type": "amenity",
+        "business_subtype": "restaurant",
+        "osm_id": 11099864694
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.1856526,
+          39.3279384
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "The Loft Barber Shop",
+        "business_type": "shop",
+        "business_subtype": "hairdresser",
+        "osm_id": 11099864695
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.1855824,
+          39.327964
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dresses Boutique",
+        "business_type": "shop",
+        "business_subtype": "clothes",
+        "osm_id": 11099864696
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.1851614,
+          39.3280685
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mo, Jo & Zoe",
+        "business_type": "shop",
+        "business_subtype": "clothes",
+        "osm_id": 11099864698
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.1866197,
+          39.3276725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tourist Club Bar",
+        "business_type": "amenity",
+        "business_subtype": "bar",
+        "osm_id": 11099864699
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.1861508,
+          39.3277977
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "CA89 Home",
+        "business_type": "shop",
+        "business_subtype": "houseware",
+        "osm_id": 11099864700
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.1866539,
+          39.3276638
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kalifornia Jean Bar",
+        "business_type": "shop",
+        "business_subtype": "gift",
+        "osm_id": 11099864701
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.1855089,
+          39.3279851
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cooking Gallery",
+        "business_type": "shop",
+        "business_subtype": "houseware",
+        "osm_id": 11099864702
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.1853782,
+          39.3280152
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tahoe-Truckee T-Shirtery",
+        "business_type": "shop",
+        "business_subtype": "clothes",
+        "osm_id": 11099864703
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.1865042,
+          39.3277076
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Uncorked",
+        "business_type": "shop",
+        "business_subtype": "wine",
+        "osm_id": 11099864704
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.1864473,
+          39.3277228
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cabona\u2019s",
+        "business_type": "shop",
+        "business_subtype": "clothes",
+        "osm_id": 11099911505
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.1858783,
+          39.3278757
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "The Pastime Club",
+        "business_type": "amenity",
+        "business_subtype": "nightclub",
+        "osm_id": 11099911506
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.1855612,
+          39.3279681
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sweets Handmade Candies",
+        "business_type": "shop",
+        "business_subtype": "confectionery",
+        "osm_id": 11099911508
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.1865866,
+          39.3276822
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Truckee Variety Co.",
+        "business_type": "shop",
+        "business_subtype": "gift",
+        "osm_id": 11099911509
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.1854581,
+          39.327998
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gratitude",
+        "business_type": "shop",
+        "business_subtype": "houseware",
+        "osm_id": 11099911510
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.1863363,
+          39.3277507
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Alpine Electric",
+        "business_type": "shop",
+        "business_subtype": "trade",
+        "osm_id": 11099911511
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.1851179,
+          39.3280797
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Trout Creek Outfitters",
+        "business_type": "shop",
+        "business_subtype": "fishing",
+        "osm_id": 11108447206
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.1867773,
+          39.3271825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wild & Ruff",
+        "business_type": "shop",
+        "business_subtype": "pet",
+        "osm_id": 11108447207
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.1869182,
+          39.3271512
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tahoe Oil & Spice",
+        "business_type": "shop",
+        "business_subtype": "olive_oil",
+        "osm_id": 11108536126
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.1865121,
+          39.3273019
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Engel & V\u00f6lkers",
+        "business_type": "office",
+        "business_subtype": "estate_agent",
+        "osm_id": 11108536127
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.186402,
+          39.3273507
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Alibi Ale Works",
+        "business_type": "amenity",
+        "business_subtype": "pub",
+        "osm_id": 11170823427
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.1842729,
+          39.3293275
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Coffeebar Truckee",
+        "business_type": "amenity",
+        "business_subtype": "cafe",
+        "osm_id": 11621122166
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.1865451,
+          39.328289
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tahoe Mountain Life",
+        "business_type": "shop",
+        "business_subtype": "clothes",
+        "osm_id": 11621237029
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.1864401,
+          39.3282421
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Totally Board",
+        "business_type": "shop",
+        "business_subtype": "sports",
+        "osm_id": 11621295893
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.1846256,
+          39.3290555
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dark Horse Coffee Roasters",
+        "business_type": "amenity",
+        "business_subtype": "cafe",
+        "osm_id": 12181124195
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.1837363,
+          39.3269566
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "76",
+        "business_type": "amenity",
+        "business_subtype": "fuel",
+        "osm_id": 350490996
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.1842949,
+          39.3279325
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Beacon",
+        "business_type": "amenity",
+        "business_subtype": "fuel",
+        "osm_id": 350491001
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.1835535,
+          39.3281302
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Old Jail Museum",
+        "business_type": "tourism",
+        "business_subtype": "museum",
+        "osm_id": 448755326
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.1868211,
+          39.3280088
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "The Truckee Hotel",
+        "business_type": "tourism",
+        "business_subtype": "hotel",
+        "osm_id": 604011931
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.1838221,
+          39.3285114
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Truckee Post Office",
+        "business_type": "amenity",
+        "business_subtype": "post_office",
+        "osm_id": 604011957
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.1847776,
+          39.3287533
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jax on the Tracks",
+        "business_type": "amenity",
+        "business_subtype": "restaurant",
+        "osm_id": 627572206
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.1840612,
+          39.3274022
+        ]
+      }
+    }
+  ]
+}

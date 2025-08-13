@@ -1,0 +1,1599 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "city": "Healdsburg.Json",
+    "analysis_timestamp": "2025-08-12T20:14:09.713111",
+    "total_businesses": 81,
+    "downtown_businesses": 81,
+    "downtown_area_km2": 0.7
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Downtown Healdsburg.Json",
+        "type": "downtown_boundary",
+        "business_count": 81
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.86596210000002,
+              38.609645400000005
+            ],
+            [
+              -122.86597654582,
+              38.60935134857902
+            ],
+            [
+              -122.8660197441588,
+              38.609060129033956
+            ],
+            [
+              -122.86609127899283,
+              38.608774545968245
+            ],
+            [
+              -122.86619046140248,
+              38.60849734970291
+            ],
+            [
+              -122.86631633620698,
+              38.60823120978953
+            ],
+            [
+              -122.86646769116311,
+              38.60797868930095
+            ],
+            [
+              -122.86664306863993,
+              38.607742220147514
+            ],
+            [
+              -122.86684077965646,
+              38.60752407965644
+            ],
+            [
+              -122.86705892014753,
+              38.60732636863992
+            ],
+            [
+              -122.86729538930096,
+              38.607150991163095
+            ],
+            [
+              -122.86754790978954,
+              38.60699963620696
+            ],
+            [
+              -122.86781404970293,
+              38.60687376140247
+            ],
+            [
+              -122.86809124596826,
+              38.606774578992805
+            ],
+            [
+              -122.86837682903398,
+              38.6067030441588
+            ],
+            [
+              -122.86866804857902,
+              38.60665984581999
+            ],
+            [
+              -122.86896210000002,
+              38.606645400000005
+            ],
+            [
+              -122.87096210000001,
+              38.606645400000005
+            ],
+            [
+              -122.87125615142101,
+              38.60665984581999
+            ],
+            [
+              -122.87154737096606,
+              38.6067030441588
+            ],
+            [
+              -122.87183295403177,
+              38.606774578992805
+            ],
+            [
+              -122.8721101502971,
+              38.60687376140247
+            ],
+            [
+              -122.8723762902105,
+              38.60699963620696
+            ],
+            [
+              -122.87262881069907,
+              38.607150991163095
+            ],
+            [
+              -122.8728652798525,
+              38.60732636863992
+            ],
+            [
+              -122.87308342034358,
+              38.60752407965644
+            ],
+            [
+              -122.8732811313601,
+              38.607742220147514
+            ],
+            [
+              -122.87345650883692,
+              38.60797868930095
+            ],
+            [
+              -122.87360786379305,
+              38.60823120978953
+            ],
+            [
+              -122.87373373859755,
+              38.60849734970291
+            ],
+            [
+              -122.8738329210072,
+              38.608774545968245
+            ],
+            [
+              -122.87390445584123,
+              38.609060129033956
+            ],
+            [
+              -122.87394765418003,
+              38.60935134857902
+            ],
+            [
+              -122.87396210000001,
+              38.609645400000005
+            ],
+            [
+              -122.87396210000001,
+              38.61364540000001
+            ],
+            [
+              -122.87394765418003,
+              38.613939451421
+            ],
+            [
+              -122.87390445584123,
+              38.61423067096606
+            ],
+            [
+              -122.8738329210072,
+              38.61451625403177
+            ],
+            [
+              -122.87373373859755,
+              38.61479345029711
+            ],
+            [
+              -122.87360786379305,
+              38.615059590210485
+            ],
+            [
+              -122.87345650883692,
+              38.615312110699065
+            ],
+            [
+              -122.8732811313601,
+              38.6155485798525
+            ],
+            [
+              -122.87308342034358,
+              38.61576672034357
+            ],
+            [
+              -122.8728652798525,
+              38.6159644313601
+            ],
+            [
+              -122.87262881069907,
+              38.61613980883692
+            ],
+            [
+              -122.8723762902105,
+              38.61629116379306
+            ],
+            [
+              -122.8721101502971,
+              38.61641703859755
+            ],
+            [
+              -122.87183295403177,
+              38.61651622100721
+            ],
+            [
+              -122.87154737096606,
+              38.616587755841216
+            ],
+            [
+              -122.87125615142101,
+              38.616630954180025
+            ],
+            [
+              -122.87096210000001,
+              38.61664540000001
+            ],
+            [
+              -122.86896210000002,
+              38.61664540000001
+            ],
+            [
+              -122.86866804857902,
+              38.616630954180025
+            ],
+            [
+              -122.86837682903398,
+              38.616587755841216
+            ],
+            [
+              -122.86809124596826,
+              38.61651622100721
+            ],
+            [
+              -122.86781404970293,
+              38.61641703859755
+            ],
+            [
+              -122.86754790978954,
+              38.61629116379306
+            ],
+            [
+              -122.86729538930096,
+              38.61613980883692
+            ],
+            [
+              -122.86705892014753,
+              38.6159644313601
+            ],
+            [
+              -122.86684077965646,
+              38.61576672034357
+            ],
+            [
+              -122.86664306863993,
+              38.6155485798525
+            ],
+            [
+              -122.86646769116311,
+              38.615312110699065
+            ],
+            [
+              -122.86631633620698,
+              38.615059590210485
+            ],
+            [
+              -122.86619046140248,
+              38.61479345029711
+            ],
+            [
+              -122.86609127899283,
+              38.61451625403177
+            ],
+            [
+              -122.8660197441588,
+              38.61423067096606
+            ],
+            [
+              -122.86597654582,
+              38.613939451421
+            ],
+            [
+              -122.86596210000002,
+              38.61364540000001
+            ],
+            [
+              -122.86596210000002,
+              38.609645400000005
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hawley Winery Tasting Room and Gallery",
+        "business_type": "amenity",
+        "business_subtype": "bar",
+        "osm_id": 2452326290
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8712056,
+          38.611613
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sanglier Cellars Tasting Room",
+        "business_type": "amenity",
+        "business_subtype": "bar",
+        "osm_id": 2452328704
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8690481,
+          38.6112748
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Community First Credit Union",
+        "business_type": "amenity",
+        "business_subtype": "bank",
+        "osm_id": 3913189819
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.871459,
+          38.611686
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Les Lunes",
+        "business_type": "shop",
+        "business_subtype": "clothes",
+        "osm_id": 5826073955
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8694938,
+          38.6113947
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Antique Harvest",
+        "business_type": "shop",
+        "business_subtype": "gift",
+        "osm_id": 5826074254
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8704126,
+          38.6093409
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Noble Folk Ice Cream & Pie",
+        "business_type": "amenity",
+        "business_subtype": "cafe",
+        "osm_id": 5873963285
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8696439,
+          38.6102989
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SingleThread",
+        "business_type": "amenity",
+        "business_subtype": "restaurant",
+        "osm_id": 7201813720
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8696919,
+          38.6123379
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Chalkboard",
+        "business_type": "amenity",
+        "business_subtype": "restaurant",
+        "osm_id": 8118197710
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8715627,
+          38.6119326
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Willi's Seafood & Raw Bar",
+        "business_type": "amenity",
+        "business_subtype": "restaurant",
+        "osm_id": 8767139347
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8712899,
+          38.6120789
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dry Creek Kitchen",
+        "business_type": "amenity",
+        "business_subtype": "restaurant",
+        "osm_id": 9068811529
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8709259,
+          38.6108948
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "The Matheson",
+        "business_type": "amenity",
+        "business_subtype": "restaurant",
+        "osm_id": 9887673057
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8700409,
+          38.6101891
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Flakey Cream Do-Nuts and Coffee Shop",
+        "business_type": "amenity",
+        "business_subtype": "restaurant",
+        "osm_id": 10577244561
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8707461,
+          38.6136945
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Two Thirty-Five Luxury Suites",
+        "business_type": "tourism",
+        "business_subtype": "hotel",
+        "osm_id": 12519408734
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8705597,
+          38.6096597
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Akoia Day Spa",
+        "business_type": "shop",
+        "business_subtype": "beauty",
+        "osm_id": 237994230
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.870415,
+          38.6112897
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bistro Ralph",
+        "business_type": "amenity",
+        "business_subtype": "restaurant",
+        "osm_id": 237994231
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8702548,
+          38.6113486
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Circumference",
+        "business_type": "shop",
+        "business_subtype": "art",
+        "osm_id": 237994232
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8698062,
+          38.6113622
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cupcake Children & Maternity",
+        "business_type": "shop",
+        "business_subtype": "clothes",
+        "osm_id": 237994233
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8703127,
+          38.6113384
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Black Oak Coffee Roasters",
+        "business_type": "amenity",
+        "business_subtype": "cafe",
+        "osm_id": 237994234
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8694053,
+          38.61152
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Center Street Cafe & Deli",
+        "business_type": "amenity",
+        "business_subtype": "restaurant",
+        "osm_id": 237994238
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8691679,
+          38.6108107
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Erickson Fine Art Gallery",
+        "business_type": "shop",
+        "business_subtype": "art",
+        "osm_id": 237994244
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8705305,
+          38.6113853
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gold Bloom Jewelers",
+        "business_type": "shop",
+        "business_subtype": "jewelry",
+        "osm_id": 237994246
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8694606,
+          38.6116341
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Unknown",
+        "business_type": "shop",
+        "business_subtype": "art",
+        "osm_id": 237994249
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8705819,
+          38.6112601
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Healdsburg Center for the Arts",
+        "business_type": "office",
+        "business_subtype": "yes",
+        "osm_id": 237994251
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8691131,
+          38.6111813
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "John&Zekes",
+        "business_type": "amenity",
+        "business_subtype": "bar",
+        "osm_id": 237994253
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8701686,
+          38.611377
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Just For You - Gallery of Fine Art",
+        "business_type": "shop",
+        "business_subtype": "art",
+        "osm_id": 237994254
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8699872,
+          38.6114306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Plaza Paint & Supply",
+        "business_type": "shop",
+        "business_subtype": "paint",
+        "osm_id": 237994255
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8694922,
+          38.6118618
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rainsong Shoes",
+        "business_type": "shop",
+        "business_subtype": "shoes",
+        "osm_id": 237994256
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8699121,
+          38.6114439
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Schieffer Insurance",
+        "business_type": "office",
+        "business_subtype": "insurance",
+        "osm_id": 237994257
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.869535,
+          38.6119247
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Seasons Of The Vinyards",
+        "business_type": "amenity",
+        "business_subtype": "bar",
+        "osm_id": 237994258
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8700726,
+          38.6114053
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "The Mercantile Shop",
+        "business_type": "shop",
+        "business_subtype": "clothes",
+        "osm_id": 237994260
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8700594,
+          38.6117579
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Valette",
+        "business_type": "amenity",
+        "business_subtype": "restaurant",
+        "osm_id": 237994261
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8695745,
+          38.6120612
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "gallery lulo",
+        "business_type": "shop",
+        "business_subtype": "art",
+        "osm_id": 237994262
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.869834,
+          38.6114577
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "14feet.",
+        "business_type": "shop",
+        "business_subtype": "furniture",
+        "osm_id": 237994264
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8699594,
+          38.611618
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "ARBORETUM",
+        "business_type": "shop",
+        "business_subtype": "clothes",
+        "osm_id": 238035593
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8706497,
+          38.6116413
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "American River Bank",
+        "business_type": "amenity",
+        "business_subtype": "bank",
+        "osm_id": 238035594
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8698062,
+          38.6126616
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "BRAVAS AND BAR BRAVAS",
+        "business_type": "amenity",
+        "business_subtype": "restaurant",
+        "osm_id": 238035595
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8698056,
+          38.6129162
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Baci Cafe & Wine Bar",
+        "business_type": "amenity",
+        "business_subtype": "restaurant",
+        "osm_id": 238035596
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8706285,
+          38.6117337
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Molti Amici",
+        "business_type": "amenity",
+        "business_subtype": "restaurant",
+        "osm_id": 238035597
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8706305,
+          38.6115752
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "The Taste of Tea",
+        "business_type": "amenity",
+        "business_subtype": "restaurant",
+        "osm_id": 238035601
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.870573,
+          38.6122219
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Portalupi Wine Co",
+        "business_type": "amenity",
+        "business_subtype": "bar",
+        "osm_id": 238035605
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.870662,
+          38.6122061
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Raven Performing Arts Theater",
+        "business_type": "amenity",
+        "business_subtype": "theatre",
+        "osm_id": 238035606
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8704134,
+          38.6123133
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ravenous Cafe & Lounge",
+        "business_type": "amenity",
+        "business_subtype": "restaurant",
+        "osm_id": 238035607
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.870297,
+          38.612187
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rou Moll",
+        "business_type": "shop",
+        "business_subtype": "clothes",
+        "osm_id": 238035608
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8706921,
+          38.6118467
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Shelton's Natural Foods Market",
+        "business_type": "shop",
+        "business_subtype": "supermarket",
+        "osm_id": 238035609
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8693689,
+          38.6134686
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wine Country Group by Better Homes and Gardens Real Estate",
+        "business_type": "office",
+        "business_subtype": "estate_agent",
+        "osm_id": 238035610
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8702337,
+          38.6123466
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "bergamot alley",
+        "business_type": "amenity",
+        "business_subtype": "restaurant",
+        "osm_id": 238035612
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.870481,
+          38.6115243
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Copperfields Books",
+        "business_type": "shop",
+        "business_subtype": "books",
+        "osm_id": 238038450
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8700381,
+          38.610185
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Saint Dizier Home",
+        "business_type": "shop",
+        "business_subtype": "furniture",
+        "osm_id": 238038452
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.869531,
+          38.6103205
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Unknown",
+        "business_type": "shop",
+        "business_subtype": "antiques",
+        "osm_id": 238038454
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8694319,
+          38.609767
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Myra Hoefer Design",
+        "business_type": "shop",
+        "business_subtype": "furniture",
+        "osm_id": 238038456
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8695111,
+          38.6100947
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Taqueria El Sombrero",
+        "business_type": "amenity",
+        "business_subtype": "restaurant",
+        "osm_id": 238038457
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8695359,
+          38.6101798
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "One World Fair Trade",
+        "business_type": "shop",
+        "business_subtype": "gift",
+        "osm_id": 238038459
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8701569,
+          38.610164
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Susan Graf",
+        "business_type": "shop",
+        "business_subtype": "clothes",
+        "osm_id": 238038460
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8703113,
+          38.6101367
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Thumbprint Cellar",
+        "business_type": "shop",
+        "business_subtype": "alcohol",
+        "osm_id": 238038461
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8702318,
+          38.6101507
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "A Simple Touch Spa",
+        "business_type": "shop",
+        "business_subtype": "beauty",
+        "osm_id": 238112857
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8695177,
+          38.609987
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Barndiva",
+        "business_type": "amenity",
+        "business_subtype": "restaurant",
+        "osm_id": 238112858
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8694733,
+          38.6096278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Finely Lara's",
+        "business_type": "shop",
+        "business_subtype": "jewelry",
+        "osm_id": 238112859
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8694982,
+          38.60992
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hauck Cellars",
+        "business_type": "amenity",
+        "business_subtype": "bar",
+        "osm_id": 238112865
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.869296,
+          38.609235
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Unknown",
+        "business_type": "shop",
+        "business_subtype": "pet",
+        "osm_id": 238112869
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8698601,
+          38.6089611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Healdsburg Inn",
+        "business_type": "tourism",
+        "business_subtype": "hotel",
+        "osm_id": 238112870
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8697981,
+          38.6102732
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mateo's Cocina Latina",
+        "business_type": "amenity",
+        "business_subtype": "restaurant",
+        "osm_id": 238112871
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8699391,
+          38.609012
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rete",
+        "business_type": "shop",
+        "business_subtype": "clothes",
+        "osm_id": 238112872
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8697246,
+          38.6102863
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Selby Winery Tasting Room",
+        "business_type": "amenity",
+        "business_subtype": "bar",
+        "osm_id": 238112873
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8693367,
+          38.6090758
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Spoke Folk Cyclery",
+        "business_type": "shop",
+        "business_subtype": "bicycle",
+        "osm_id": 238112875
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8691602,
+          38.6086454
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Vignettes Gallery",
+        "business_type": "shop",
+        "business_subtype": "art",
+        "osm_id": 238112877
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8698715,
+          38.6102602
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Stephen & Walker",
+        "business_type": "shop",
+        "business_subtype": "wine",
+        "osm_id": 238116401
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8706781,
+          38.6098969
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Healdsburg Bar & Grill",
+        "business_type": "amenity",
+        "business_subtype": "restaurant",
+        "osm_id": 238116402
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8707052,
+          38.6099903
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "h2hotel",
+        "business_type": "tourism",
+        "business_subtype": "hotel",
+        "osm_id": 238116406
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8704446,
+          38.6090657
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Costeaux French Bakery",
+        "business_type": "shop",
+        "business_subtype": "bakery",
+        "osm_id": 238121228
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8715878,
+          38.6125461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Erik's Barber Shop",
+        "business_type": "shop",
+        "business_subtype": "hairdresser",
+        "osm_id": 238121229
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8717386,
+          38.6128838
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Garagiste Healdsburg",
+        "business_type": "amenity",
+        "business_subtype": "bar",
+        "osm_id": 238121230
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8719128,
+          38.6132479
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Purls of Joy",
+        "business_type": "shop",
+        "business_subtype": "fabric",
+        "osm_id": 238121241
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8717077,
+          38.6128317
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Uniquely Chic Floral & Home",
+        "business_type": "shop",
+        "business_subtype": "florist",
+        "osm_id": 238121242
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8716169,
+          38.6126388
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Healdsburg Modern Cottages",
+        "business_type": "tourism",
+        "business_subtype": "guest_house",
+        "osm_id": 238123044
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8719621,
+          38.6122809
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Flying Goat Coffee",
+        "business_type": "amenity",
+        "business_subtype": "cafe",
+        "osm_id": 238156958
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8692761,
+          38.610702
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Downtown Bakery & Creamery",
+        "business_type": "shop",
+        "business_subtype": "bakery",
+        "osm_id": 238156959
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8692238,
+          38.6109448
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Levin & Company",
+        "business_type": "shop",
+        "business_subtype": "books",
+        "osm_id": 238156961
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8692075,
+          38.6108841
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mr Moon's",
+        "business_type": "shop",
+        "business_subtype": "gift",
+        "osm_id": 238156962
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8693532,
+          38.6111688
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Snowbunny Frozen Yogurt",
+        "business_type": "amenity",
+        "business_subtype": "fast_food",
+        "osm_id": 238156964
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8693377,
+          38.6111112
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "LIOCO Tasting Room",
+        "business_type": "amenity",
+        "business_subtype": "bar",
+        "osm_id": 238156966
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8691523,
+          38.6107224
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Windsor Vineyards Tasting Room",
+        "business_type": "shop",
+        "business_subtype": "deli",
+        "osm_id": 238156967
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8692401,
+          38.6110055
+        ]
+      }
+    }
+  ]
+}
