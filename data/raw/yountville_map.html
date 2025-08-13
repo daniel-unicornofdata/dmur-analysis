@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d97106246353dfd162a61e6cb8846d59 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+        <div style="position: fixed; 
+                    bottom: 50px; left: 50px; width: 200px; height: 120px; 
+                    background-color: white; border:2px solid grey; z-index:9999; 
+                    font-size:14px; padding: 10px">
+        <h4>Yountville.Json Downtown Map</h4>
+        <p><i class="fa fa-star" style="color:red"></i> Restaurants/Amenities<br>
+           <i class="fa fa-star" style="color:green"></i> Shops<br>
+           <i class="fa fa-star" style="color:blue"></i> Tourism<br>
+           <i class="fa fa-star" style="color:orange"></i> Offices<br>
+           <i class="fa fa-star" style="color:purple"></i> Wineries/Craft<br>
+           <span style="color:red; font-weight:bold;">Red Area:</span> Downtown Boundary</p>
+        </div>
+        
+    
+        <div style="position: fixed; 
+                    top: 10px; right: 10px; width: 250px; height: 100px; 
+                    background-color: white; border:2px solid grey; z-index:9999; 
+                    font-size:12px; padding: 10px">
+        <h4>Analysis Statistics</h4>
+        <p>Total Businesses: 6<br>
+           Downtown Businesses: 6<br>
+           Downtown Area: 0.54 km²<br>
+           Business Density: 11.1 per km²</p>
+        </div>
+        
+    
+            <div class="folium-map" id="map_d97106246353dfd162a61e6cb8846d59" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_d97106246353dfd162a61e6cb8846d59 = L.map(
+                "map_d97106246353dfd162a61e6cb8846d59",
+                {
+                    center: [38.40238563333333, -122.36162276666666],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 15,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_60865761fef47f641bde4a32769c527f = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_60865761fef47f641bde4a32769c527f.addTo(map_d97106246353dfd162a61e6cb8846d59);
+        
+    
+            var polygon_a960bcea654f895128326267c3c6d63c = L.polygon(
+                [[38.40301770000001, -122.365948], [38.40331175142099, -122.36593355418002], [38.403602970966055, -122.36589035584122], [38.40388855403177, -122.3658188210072], [38.4041657502971, -122.36571963859754], [38.40443189021048, -122.36559376379304], [38.40468441069906, -122.36544240883691], [38.4049208798525, -122.36526703136009], [38.40513902034357, -122.36506932034357], [38.405336731360094, -122.3648511798525], [38.405512108836916, -122.36461471069906], [38.405663463793054, -122.36436219021049], [38.40578933859754, -122.36409605029709], [38.405888521007206, -122.36381885403176], [38.40596005584121, -122.36353327096604], [38.40600325418002, -122.363242051421], [38.40601770000001, -122.362948], [38.40601770000001, -122.36094800000001], [38.40600325418002, -122.36065394857901], [38.40596005584121, -122.36036272903397], [38.405888521007206, -122.36007714596825], [38.40578933859754, -122.35979994970292], [38.405663463793054, -122.35953380978953], [38.405512108836916, -122.35928128930095], [38.405336731360094, -122.35904482014752], [38.40513902034357, -122.35882667965645], [38.4049208798525, -122.35862896863992], [38.40468441069906, -122.3584535911631], [38.40443189021048, -122.35830223620697], [38.4041657502971, -122.35817636140247], [38.40388855403177, -122.35807717899281], [38.403602970966055, -122.3580056441588], [38.40331175142099, -122.35796244582], [38.40301770000001, -122.35794800000001], [38.401017700000004, -122.35794800000001], [38.40072364857902, -122.35796244582], [38.400432429033955, -122.3580056441588], [38.400146845968244, -122.35807717899281], [38.39986964970291, -122.35817636140247], [38.39960350978953, -122.35830223620697], [38.39935098930095, -122.3584535911631], [38.39911452014751, -122.35862896863992], [38.39889637965644, -122.35882667965645], [38.398698668639916, -122.35904482014752], [38.398523291163094, -122.35928128930095], [38.398371936206956, -122.35953380978953], [38.39824606140247, -122.35979994970292], [38.398146878992804, -122.36007714596825], [38.3980753441588, -122.36036272903397], [38.39803214581999, -122.36065394857901], [38.398017700000004, -122.36094800000001], [38.398017700000004, -122.362948], [38.39803214581999, -122.363242051421], [38.3980753441588, -122.36353327096604], [38.398146878992804, -122.36381885403176], [38.39824606140247, -122.36409605029709], [38.398371936206956, -122.36436219021049], [38.398523291163094, -122.36461471069906], [38.398698668639916, -122.3648511798525], [38.39889637965644, -122.36506932034357], [38.39911452014751, -122.36526703136009], [38.39935098930095, -122.36544240883691], [38.39960350978953, -122.36559376379304], [38.39986964970291, -122.36571963859754], [38.400146845968244, -122.3658188210072], [38.400432429033955, -122.36589035584122], [38.40072364857902, -122.36593355418002], [38.401017700000004, -122.365948], [38.40301770000001, -122.365948]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_d97106246353dfd162a61e6cb8846d59);
+        
+    
+        var popup_b728fb4353898f29a1c4f3901891538b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_551bd5d68700f211d1881048afa6f05a = $(`<div id="html_551bd5d68700f211d1881048afa6f05a" style="width: 100.0%; height: 100.0%;">Downtown Yountville.Json</div>`)[0];
+                popup_b728fb4353898f29a1c4f3901891538b.setContent(html_551bd5d68700f211d1881048afa6f05a);
+            
+        
+
+        polygon_a960bcea654f895128326267c3c6d63c.bindPopup(popup_b728fb4353898f29a1c4f3901891538b)
+        ;
+
+        
+    
+    
+            var circle_marker_197ef895caac474dd58100d1f9ffe793 = L.circleMarker(
+                [38.4025985, -122.361948],
+                {"bubblingMouseEvents": true, "color": "lightblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightblue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 1}
+            ).addTo(map_d97106246353dfd162a61e6cb8846d59);
+        
+    
+        var popup_d3b7c15bb38aaa2c448c135fab294331 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b4e55b103d382388e613a0a2a02c5b0a = $(`<div id="html_b4e55b103d382388e613a0a2a02c5b0a" style="width: 100.0%; height: 100.0%;">Bouchon Bistro (amenity)</div>`)[0];
+                popup_d3b7c15bb38aaa2c448c135fab294331.setContent(html_b4e55b103d382388e613a0a2a02c5b0a);
+            
+        
+
+        circle_marker_197ef895caac474dd58100d1f9ffe793.bindPopup(popup_d3b7c15bb38aaa2c448c135fab294331)
+        ;
+
+        
+    
+    
+            var circle_marker_ae9ca15428aabdfd77721edceace814d = L.circleMarker(
+                [38.4022208, -122.3612217],
+                {"bubblingMouseEvents": true, "color": "lightblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightblue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 1}
+            ).addTo(map_d97106246353dfd162a61e6cb8846d59);
+        
+    
+        var popup_2d9ec8c4339bc728ab2e4dd7e27e5e58 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6c0e30f876ef36fce6a24e8afe0ccbf4 = $(`<div id="html_6c0e30f876ef36fce6a24e8afe0ccbf4" style="width: 100.0%; height: 100.0%;">La Calenda (amenity)</div>`)[0];
+                popup_2d9ec8c4339bc728ab2e4dd7e27e5e58.setContent(html_6c0e30f876ef36fce6a24e8afe0ccbf4);
+            
+        
+
+        circle_marker_ae9ca15428aabdfd77721edceace814d.bindPopup(popup_2d9ec8c4339bc728ab2e4dd7e27e5e58)
+        ;
+
+        
+    
+    
+            var circle_marker_b1592ea90036f2efa69f7e06fbb0db48 = L.circleMarker(
+                [38.4024308, -122.3615648],
+                {"bubblingMouseEvents": true, "color": "lightblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightblue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 1}
+            ).addTo(map_d97106246353dfd162a61e6cb8846d59);
+        
+    
+        var popup_e9df4a8a8637795ae876ebb8fa5bf660 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cdf520485138df8994ec6a9ec29eb3fa = $(`<div id="html_cdf520485138df8994ec6a9ec29eb3fa" style="width: 100.0%; height: 100.0%;">Petit Logis Inn (tourism)</div>`)[0];
+                popup_e9df4a8a8637795ae876ebb8fa5bf660.setContent(html_cdf520485138df8994ec6a9ec29eb3fa);
+            
+        
+
+        circle_marker_b1592ea90036f2efa69f7e06fbb0db48.bindPopup(popup_e9df4a8a8637795ae876ebb8fa5bf660)
+        ;
+
+        
+    
+    
+            var circle_marker_9784ad2383c28d8683afc94017f85db8 = L.circleMarker(
+                [38.4024387, -122.361778],
+                {"bubblingMouseEvents": true, "color": "lightblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightblue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 1}
+            ).addTo(map_d97106246353dfd162a61e6cb8846d59);
+        
+    
+        var popup_e4729b2088dc230b5040c3eaa4e826a1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4586e2efd2fb3100dec3743ed70d5cee = $(`<div id="html_4586e2efd2fb3100dec3743ed70d5cee" style="width: 100.0%; height: 100.0%;">Bouchon Bakery (amenity)</div>`)[0];
+                popup_e4729b2088dc230b5040c3eaa4e826a1.setContent(html_4586e2efd2fb3100dec3743ed70d5cee);
+            
+        
+
+        circle_marker_9784ad2383c28d8683afc94017f85db8.bindPopup(popup_e4729b2088dc230b5040c3eaa4e826a1)
+        ;
+
+        
+    
+    
+            var circle_marker_ad95e9bcd4f834e6207470c961ad6109 = L.circleMarker(
+                [38.4020177, -122.3617251],
+                {"bubblingMouseEvents": true, "color": "lightblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightblue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 1}
+            ).addTo(map_d97106246353dfd162a61e6cb8846d59);
+        
+    
+        var popup_43ddbb93bf29e088e2f03ca0508e3ccf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b084649155e5f872ede4bba519b73c91 = $(`<div id="html_b084649155e5f872ede4bba519b73c91" style="width: 100.0%; height: 100.0%;">Unknown (amenity)</div>`)[0];
+                popup_43ddbb93bf29e088e2f03ca0508e3ccf.setContent(html_b084649155e5f872ede4bba519b73c91);
+            
+        
+
+        circle_marker_ad95e9bcd4f834e6207470c961ad6109.bindPopup(popup_43ddbb93bf29e088e2f03ca0508e3ccf)
+        ;
+
+        
+    
+    
+            var circle_marker_f6a5ea73cb4c7d8fb45007236b265e31 = L.circleMarker(
+                [38.4026073, -122.361499],
+                {"bubblingMouseEvents": true, "color": "lightblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightblue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 1}
+            ).addTo(map_d97106246353dfd162a61e6cb8846d59);
+        
+    
+        var popup_b74c9332960e61472992f281b417c0da = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a475533932430fc10d498cec4cc24964 = $(`<div id="html_a475533932430fc10d498cec4cc24964" style="width: 100.0%; height: 100.0%;">Maison Fleurie, A Four Sisters Inn (tourism)</div>`)[0];
+                popup_b74c9332960e61472992f281b417c0da.setContent(html_a475533932430fc10d498cec4cc24964);
+            
+        
+
+        circle_marker_f6a5ea73cb4c7d8fb45007236b265e31.bindPopup(popup_b74c9332960e61472992f281b417c0da)
+        ;
+
+        
+    
+    
+            var marker_7abebdb6450e3a187180d2d86fe8cfeb = L.marker(
+                [38.4025985, -122.361948],
+                {
+}
+            ).addTo(map_d97106246353dfd162a61e6cb8846d59);
+        
+    
+            var icon_a9ae123409c01bc91b16d45ef3f5eec0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1f983c537ada7828745132a59910e490 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c2f32429bada43414a4086cfc932dbe8 = $(`<div id="html_c2f32429bada43414a4086cfc932dbe8" style="width: 100.0%; height: 100.0%;"><b>Bouchon Bistro</b><br>amenity: restaurant<br>OSM ID: 1139089611</div>`)[0];
+                popup_1f983c537ada7828745132a59910e490.setContent(html_c2f32429bada43414a4086cfc932dbe8);
+            
+        
+
+        marker_7abebdb6450e3a187180d2d86fe8cfeb.bindPopup(popup_1f983c537ada7828745132a59910e490)
+        ;
+
+        
+    
+    
+            marker_7abebdb6450e3a187180d2d86fe8cfeb.bindTooltip(
+                `<div>
+                     Bouchon Bistro
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_7abebdb6450e3a187180d2d86fe8cfeb.setIcon(icon_a9ae123409c01bc91b16d45ef3f5eec0);
+            
+    
+            var marker_43e807521cf3f12e310d9145f5d48e15 = L.marker(
+                [38.4022208, -122.3612217],
+                {
+}
+            ).addTo(map_d97106246353dfd162a61e6cb8846d59);
+        
+    
+            var icon_2175e7b0853b2201c8f206270b3ddbe4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ea13aff2abcbc54f8c513596dc78d781 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b6a428694eb2ad7f0b5823196467a2c6 = $(`<div id="html_b6a428694eb2ad7f0b5823196467a2c6" style="width: 100.0%; height: 100.0%;"><b>La Calenda</b><br>amenity: restaurant<br>OSM ID: 1139100270</div>`)[0];
+                popup_ea13aff2abcbc54f8c513596dc78d781.setContent(html_b6a428694eb2ad7f0b5823196467a2c6);
+            
+        
+
+        marker_43e807521cf3f12e310d9145f5d48e15.bindPopup(popup_ea13aff2abcbc54f8c513596dc78d781)
+        ;
+
+        
+    
+    
+            marker_43e807521cf3f12e310d9145f5d48e15.bindTooltip(
+                `<div>
+                     La Calenda
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_43e807521cf3f12e310d9145f5d48e15.setIcon(icon_2175e7b0853b2201c8f206270b3ddbe4);
+            
+    
+            var marker_ff3e84103df8cda8f0921dfac5c8fe7c = L.marker(
+                [38.4024308, -122.3615648],
+                {
+}
+            ).addTo(map_d97106246353dfd162a61e6cb8846d59);
+        
+    
+            var icon_cfdee8afa8a7d0d443670e134d62f74b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d385c7f23985a78fd3db2e0c6444ef45 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ccb02b70e7de3521aaacc8617da8f3f0 = $(`<div id="html_ccb02b70e7de3521aaacc8617da8f3f0" style="width: 100.0%; height: 100.0%;"><b>Petit Logis Inn</b><br>tourism: hotel<br>OSM ID: 1146167731</div>`)[0];
+                popup_d385c7f23985a78fd3db2e0c6444ef45.setContent(html_ccb02b70e7de3521aaacc8617da8f3f0);
+            
+        
+
+        marker_ff3e84103df8cda8f0921dfac5c8fe7c.bindPopup(popup_d385c7f23985a78fd3db2e0c6444ef45)
+        ;
+
+        
+    
+    
+            marker_ff3e84103df8cda8f0921dfac5c8fe7c.bindTooltip(
+                `<div>
+                     Petit Logis Inn
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ff3e84103df8cda8f0921dfac5c8fe7c.setIcon(icon_cfdee8afa8a7d0d443670e134d62f74b);
+            
+    
+            var marker_8c277984502f7ee973d387c944d800a0 = L.marker(
+                [38.4024387, -122.361778],
+                {
+}
+            ).addTo(map_d97106246353dfd162a61e6cb8846d59);
+        
+    
+            var icon_3ad6392140219838fbd2f75f7aa05c03 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0c5ca0851744db77196e30ebde754e3b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_14efdb8c3100b16e98ffa1760e45d547 = $(`<div id="html_14efdb8c3100b16e98ffa1760e45d547" style="width: 100.0%; height: 100.0%;"><b>Bouchon Bakery</b><br>amenity: restaurant<br>OSM ID: 1146406909</div>`)[0];
+                popup_0c5ca0851744db77196e30ebde754e3b.setContent(html_14efdb8c3100b16e98ffa1760e45d547);
+            
+        
+
+        marker_8c277984502f7ee973d387c944d800a0.bindPopup(popup_0c5ca0851744db77196e30ebde754e3b)
+        ;
+
+        
+    
+    
+            marker_8c277984502f7ee973d387c944d800a0.bindTooltip(
+                `<div>
+                     Bouchon Bakery
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_8c277984502f7ee973d387c944d800a0.setIcon(icon_3ad6392140219838fbd2f75f7aa05c03);
+            
+    
+            var marker_2ac29aa9596769df17ea4b6fc5879517 = L.marker(
+                [38.4020177, -122.3617251],
+                {
+}
+            ).addTo(map_d97106246353dfd162a61e6cb8846d59);
+        
+    
+            var icon_f1706e49d2c68842dc20701ad5c73b59 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_42550a4eec16a76829c19a41f9812b99 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bf96b78ac4571013c3419d23fe2d895b = $(`<div id="html_bf96b78ac4571013c3419d23fe2d895b" style="width: 100.0%; height: 100.0%;"><b>Unknown</b><br>amenity: restaurant<br>OSM ID: 1180716031</div>`)[0];
+                popup_42550a4eec16a76829c19a41f9812b99.setContent(html_bf96b78ac4571013c3419d23fe2d895b);
+            
+        
+
+        marker_2ac29aa9596769df17ea4b6fc5879517.bindPopup(popup_42550a4eec16a76829c19a41f9812b99)
+        ;
+
+        
+    
+    
+            marker_2ac29aa9596769df17ea4b6fc5879517.bindTooltip(
+                `<div>
+                     Unknown
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_2ac29aa9596769df17ea4b6fc5879517.setIcon(icon_f1706e49d2c68842dc20701ad5c73b59);
+            
+    
+            var marker_d8e5b7356eeffbfd23e6e77b38e494fb = L.marker(
+                [38.4026073, -122.361499],
+                {
+}
+            ).addTo(map_d97106246353dfd162a61e6cb8846d59);
+        
+    
+            var icon_02675547914732a657b6a5abd64870ca = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6965c58fcab263a28aad227c86ccff47 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ca68e140c8e5b8605b8707100cc5e29a = $(`<div id="html_ca68e140c8e5b8605b8707100cc5e29a" style="width: 100.0%; height: 100.0%;"><b>Maison Fleurie, A Four Sisters Inn</b><br>tourism: hotel<br>OSM ID: 1227022406</div>`)[0];
+                popup_6965c58fcab263a28aad227c86ccff47.setContent(html_ca68e140c8e5b8605b8707100cc5e29a);
+            
+        
+
+        marker_d8e5b7356eeffbfd23e6e77b38e494fb.bindPopup(popup_6965c58fcab263a28aad227c86ccff47)
+        ;
+
+        
+    
+    
+            marker_d8e5b7356eeffbfd23e6e77b38e494fb.bindTooltip(
+                `<div>
+                     Maison Fleurie, A Four Sisters Inn
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_d8e5b7356eeffbfd23e6e77b38e494fb.setIcon(icon_02675547914732a657b6a5abd64870ca);
+            
+</script>
+</html>

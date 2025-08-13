@@ -223,13 +223,4 @@ api_keys.txt
 *~
 
 # Old project files (to be cleaned up)
-analyze_downtown.py
-analyze_downtown_density.py
-fetch_osm_businesses.py
-validate_downtown.py
-validate_generic.py
-validate_truckee.py
-*.json
-*.png
-*.html
-CLAUDE.md
+# Note: Legacy files are preserved in archive/legacy_files/
